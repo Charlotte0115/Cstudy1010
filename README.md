@@ -11,4 +11,9 @@ int main(void)
         B[i] = A[i % 3];
     }
     
+    for (i = 0; i < 10; i++)
+    {
+        printf"%5d", B[i]);
+    }
+    return 0;
 }
